@@ -157,7 +157,7 @@ window.addEventListener('load', () => {
       <div class="input-field col s6">
       <i class="material-icons prefix">username</i>
       <input id="icon_telephone" type="tel" class="validate">
-      <label for="icon_telephone">Email</label>
+      <label for="icon_telephone">Username</label>
       </div>
         <div class="input-field col s6">
           <i class="material-icons prefix">account_circle</i>
@@ -195,7 +195,7 @@ window.addEventListener('load', () => {
   document.querySelector('#add-specials').addEventListener('click', newSpecial);
   newSpecial();
 
-  document.querySelector('#account').addEventListener('click', createAccount);
+  document.querySelector('#login').addEventListener('click', createAccount);
 
 
 
